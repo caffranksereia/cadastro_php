@@ -36,10 +36,10 @@
 >>Utilizar CDN para todos os arquivos externos (Jquery, Jquery Mask, Jquery Validate, etc...).
 
 >>Com uso de CDN, deve ser criado apenas quatro arquivos no teste, o index.php (com o formulário e tabela) e o connection.php (com conexão com o banco de dados).
---> Index.php -> FrontEnd
---> Scripts.js -> FrontEnd
---> Style.css -> FrontEnd (opcional)
->>Connection.php -> BackEnd
+ # Index.php -> FrontEnd
+ # Scripts.js -> FrontEnd
+ # Style.css -> FrontEnd (opcional)
+ # Connection.php -> BackEnd
 
 >>O arquivo Connection.php deve verificar se a requisição recebida pelo JQuery AJAX é POST ou GET, executando funções diferentes.
 
